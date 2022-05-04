@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lexend Deca', cursive;
+    background-color: hsl(0, 0%, 95%);
+}
+
+main  {
+    display: flex;
+    margin-top: 4.45rem;
+}
+
+.container {
+    width: 328px;
+    margin: 0 auto;
+}
+
+.card {
+    height: 442px;
+}
+
+.content {
+    padding: 48px 49px;
+}
+
+.sedans {
+    background-color: hsl(31, 77%, 52%);
+}
+
+.suvs {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.luxury {
+    background-color: hsl(179, 100%, 13%);
+}
+
+.text h1 {
+    font-family: Big Shoulders Display, cursive;
+    margin-top: 31px;
+    font-size: 40px;
+    color: white;
+}
+
+.text p {
+    margin-top: 27px;
+    font-size: 15px;
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height: 24px;
+}
+
+.button {
+    width: 146px;
+    height: 48px;
+    margin-top: 28px;
+    border-radius: 50px;
+    border: 2px solid hsl(0, 0%, 95%);
+    background-color: hsl(0, 0%, 95%);
+    font-size: 15px;
+    font-family: 'Lexend Deca', cursive;
+    transition: 0.2s ease-in;
+}
+
+.button_sedans  {
+    color: hsl(31, 77%, 52%);;
+}
+
+.button_suvs {
+    color: hsl(184, 100%, 22%);
+}
+
+.button_luxury {
+    color: hsl(179, 100%, 13%);
+}
+
+.button:hover {
+    background-color: transparent;
+    color: hsl(0, 0%, 95%);
+    cursor: pointer;
+}
+
+@media (min-width: 1440px) {
+
+    main {
+        height: 98vh;
+        display: flex;
+       justify-content: center;
+       align-items: center;
+       margin: 0 auto;
+    }
+    .container {
+        width: 921px;
+        display: flex;
+        background-color: rgb(196, 167, 39);
+    }
+
+    .card {
+        height: 500px;
+        width: 307px;
+    }
+
+    .button {
+        margin-top: 87px;
+    }
+
+}
